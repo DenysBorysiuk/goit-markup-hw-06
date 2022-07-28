@@ -20,6 +20,7 @@
   --icon-color: #afb1b8;
   --logo-color: #000;
   --hero-btn: #188ce8;
+
   --gradient-color: rgba(47, 48, 58, 0.4);
 
   /* other   */
@@ -498,6 +499,10 @@ img {
   color: var(--acent-color);
 }
 
+.footer-social {
+  margin-right: 93px;
+}
+
 .footer-social-subtitle {
   margin-bottom: 20px;
 
@@ -529,6 +534,28 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--acent-color);
+}
+
+.footer-form-title {
+  margin-bottom: 20px;
+
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-light);
+}
+
+.footer-form-btn {
+  padding: 10px 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  color: var(--main-light);
+  background-color: var(--acent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 
 /**
