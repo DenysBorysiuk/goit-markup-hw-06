@@ -554,7 +554,7 @@ img {
 .form-input {
   display: inline-block;
   width: 358px;
-  background: #2f303a;
+  background-color: transparent;
 
   padding-top: 15px;
   padding-bottom: 15px;
